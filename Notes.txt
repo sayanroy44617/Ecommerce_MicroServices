@@ -1,0 +1,10 @@
+1. Discovery Server Registry -->
+        there maybe multiple instances of inventory service , and we dont know where to search for a service
+        so we use "discovery server register" where we store where we can find a service.
+
+        order service----> discovery server for ip of the inventory service, which discovery service will return
+        snd then order service with make the call
+
+        to use this service we use "spring cloud netflix eureka "
+
+        t
